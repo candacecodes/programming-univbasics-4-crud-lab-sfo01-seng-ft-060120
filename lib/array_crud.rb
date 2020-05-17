@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   ["dog", "cat", "bird", "zebra"]
-  << "nala cat"
+  add_element_to_end_of_array << "nala cat"
 p add_element_to_end_of_array
 end
 
